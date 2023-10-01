@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
        <footer>
-        <div class="footer_section">
+        <div class="footer-section">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="count1">
@@ -32,18 +32,18 @@ const Footer = () => {
                 </div>
               
                 <div class="col-lg-4">
-                    <h3 >FEEDBACK</h3>
+                    <h3 class="text-white heading-section" >FEEDBACK</h3>
                     <div class="tweet mt-4"><i class="fa-brands fa-twitter"></i></div>
                     <div class="tweet mt-4"><i class="fa-brands fa-whatsapp"></i></div>
                     <div class="tweet mt-4"><i class="fa-brands fa-facebook"></i></div>
 
                 </div>
                 <div class="col-lg-5">
-                    <h4>ABOUT US</h4>
+                    <h4 class="text-white heading-section">ABOUT US</h4>
                     <p class="sub-heading mt-3">Since 1990, our college provides students with high-quality professional
                         education. Together with us,
                         you will have deeper knowledge of the subjects important for your future profession.</p>
-                    <h4 class="text-white heading-section mt-5">Newsletter</h4>
+                    <h4 class="text-white heading-section mt-5">NEWSLETTER</h4>
                     <p class="sub-heading mt-3">Keep up with our weekly news and updates on education. Enter your e-mail
                         and
                         subscribe to our
