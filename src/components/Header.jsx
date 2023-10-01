@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
 
-const Header = () => {
+
+function Navbar() {
   return (
-    <div className='header'>
-        <a>logo</a>
-        <div className='header-right'>
-            <a href='Home'>Home</a>
-            <a href="Contact">Contact</a>
-            <a href="About">About</a>
-
-        </div>
-      
+    <div className="navbar">
+      <div className="logo">CS</div>
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Navbar;

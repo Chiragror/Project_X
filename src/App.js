@@ -1,23 +1,25 @@
 import React from 'react';
 import Header from './components/Header';
+import Home from './components/Home';
 import Footer from './components/Footer';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
-
-// var router = require('browser-router');
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* <Header/>
+      <Footer/> */}
+       <BrowserRouter>
         <Routes>
           <Route>
-            <Route path="/" element={<Header/>} />
-            <Route path="/Footer" element={<Footer/>} />
+          <Route path="/" element={ <><Header /><Home /><Footer /></>
+              }
+            />
           </Route>
         </Routes>
 
         <br></br>
-      </BrowserRouter>
+      </BrowserRouter> 
       
     </div>
   )
