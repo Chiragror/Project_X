@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -64,4 +65,65 @@
 .tweet {
   color: #FF9B47;
   font-size: 2rem;
+}
+
+.navbar {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+/* .nav-links a:hover {
+  color: #ff5733;  */
+/* } */
+.footer_section {
+  background-color: black;
+    padding:5rem;
+    color:aqua;
+  }
+  .nav-links a {
+  display: inline-block;
+  position: relative;
+  color: #C3B48D;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #C3B48D;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

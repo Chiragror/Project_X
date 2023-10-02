@@ -1,6 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { useEffect } from 'react';
+import $ from "jquery";
+import "jquery.counterup";
+
 
 const Footer = () => {
+    useEffect(() => {
+        $(".count-heading").counterUp({
+          delay: 10,
+          time: 1200,
+        });
+      }, []);
   return (
     <div>
        <footer>
