@@ -74,6 +74,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .logo {
@@ -127,11 +131,11 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.img-ban {
+/* .img-ban {
   position: relative;
-}
+} */
 
-.banner__content {
+/* .banner__content {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -142,11 +146,14 @@
 
 .banner__content .banner__heading {
   font-size: 3rem;
-}
+} */
 .mi{
   width: 120px;
   height: auto;
 }
 .logo{
   height: auto;
+}
+.main{
+  margin-top: 150px;
 }
