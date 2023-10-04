@@ -127,3 +127,19 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+/* .img-ban {
+  position: relative;
+} */
+
+.banner__content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  color: #fff;
+  max-width: 600px;
+}
+
+.banner__content .banner__heading {
+  font-size: 3rem;
+}
