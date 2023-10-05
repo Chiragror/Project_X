@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
 
                         <div class="col-lg-4">
-                            <h3 class="text-white heading-section" >FEEDBACK</h3>
+                            <h3 class="text-white heading-section" >FIND US ON</h3>
                             <div class="tweet mt-4"><i class="fa-brands fa-twitter"></i></div>
                             <div class="tweet mt-4"><i class="fa-brands fa-whatsapp"></i></div>
                             <div class="tweet mt-4"><i class="fa-brands fa-facebook"></i></div>
