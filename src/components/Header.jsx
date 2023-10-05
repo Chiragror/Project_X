@@ -8,7 +8,7 @@ function Navbar() {
         {/* <img className="mi" src="\main icon.png" alt="logo" /> */}
         {/* <i class="fa-solid fa-plus fa-beat" style={{color: 'dodgerblue',fontSize:'35px' }}></i> */}
         
-       <i class="fa-solid fa-heartbeat fa-beat" style={{fontSize: '50px', left:'39px',color: '#C3B48D'}}></i>
+       <i class="fa-solid fa-heartbeat fa-beat" style={{fontSize: '50px', left:'39px',color: '#FF9B47'}}></i>
 
         {/* <a href="/">
 
