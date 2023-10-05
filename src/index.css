@@ -76,10 +76,10 @@
   padding: 10px 20px;
 }
 
-.logo {
+/* .logo {
   font-size: 24px;
   font-weight: bold;
-}
+} */
 
 .nav-links {
   list-style: none;
@@ -127,13 +127,12 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-<<<<<<< HEAD
-=======
-/* .img-ban {
-  position: relative;
-} */
 
-.banner__content {
+.banner-image {
+  position: relative;
+}
+
+.banner__text {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -145,4 +144,4 @@
 .banner__content .banner__heading {
   font-size: 3rem;
 }
->>>>>>> 6a91dd589bf51ea35b7ee1256c26cfc0d08adf67
+

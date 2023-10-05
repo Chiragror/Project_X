@@ -8,7 +8,7 @@ const Home = () => {
       <p>This is the home page content.</p>
       <div class="banner-image">
   <div>
-    <img src="/public/images/slider-1.jpg" alt="Slide 1" class="img-fluid"/>
+    <img src="slider-1.jpg" alt="Slide 1" class="img-fluid"/>
     <div class="banner__text">
       <div class="banner__subheading">QUALITY HIGHER EDUCATION</div>
       <div class="banner__heading">
@@ -17,7 +17,7 @@ const Home = () => {
     </div>
   </div>
   <div>
-    <img src="\public\slide-2.jpg" alt="Slide 2" class="img-fluid"/>
+    <img src="slide-2.jpg" alt="Slide 2" class="img-fluid"/>
     <div class="banner__text">
       <div class="banner__subheading">CAMPUS COMMUNITY</div>
       <div class="banner__heading">
@@ -26,7 +26,7 @@ const Home = () => {
     </div>
   </div>
   <div>
-    <img src="\public\slide-3.jpg" alt="Slide 3" class="img-fluid"/>
+    <img src="slide-3.jpg" alt="Slide 3" class="img-fluid"/>
     <div class="banner__text">
       <div class="banner__subheading">A VARIETY OF PROGRAMS</div>
       <div class="banner__heading">

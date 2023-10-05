@@ -5,7 +5,11 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="logo" >
-        <img className="mi" src="\main icon.png" alt="logo" />
+        {/* <img className="mi" src="\main icon.png" alt="logo" /> */}
+        <i class="fa-solid fa-plus fa-beat" style={{color: 'dodgerblue',fontSize:'35px' }}></i>
+        {/* <i class="fa-thin fa-bolt-lightning"></i > */}
+       <i class="fa-solid fa-leaf fa-beat" style={{fontSize: '15px',position: 'absolute', left:'39px',color: 'limegreen'}}></i>
+
         </div> 
       <ul className="nav-links">
         <li><a href="#">Home</a></li>
