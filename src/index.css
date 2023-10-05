@@ -175,4 +175,32 @@
 
 .main {
   margin-top: 150px;
+  
+}
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 50px;
+  bottom: 90px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 31px;
+
+}
+.sms{
+  position: fixed;
+  width: 60px;
+  height: 50px;
+  bottom: 155px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 31px;
+
+
 }
