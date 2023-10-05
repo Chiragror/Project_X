@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
+    <div className='main'>
       
       <h1>Welcome to Our Website</h1>
       <p>This is the home page content.</p>
@@ -17,7 +17,11 @@ const Home = () => {
     </div>
   </div>
   <div>
+
     <img src="slide-2.jpg" alt="Slide 2" class="img-fluid"/>
+
+    <img src="lide-2.jpg" alt="Slide 2" class="img-fluid"/>
+
     <div class="banner__text">
       <div class="banner__subheading">CAMPUS COMMUNITY</div>
       <div class="banner__heading">

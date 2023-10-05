@@ -1,14 +1,15 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
-  
+
 }
-.footer-section{
+
+.footer-section {
   background-color: black;
   padding: 5rem;
 
 }
+
 /* .heading-section {
   letter-spacing: 1.3px;
   line-height: 2.4rem;
@@ -18,17 +19,19 @@
   letter-spacing: 1px;
   line-height: 2rem;
   font-size: 1.3rem;
-  color:  #C3B48D;
+  color: #C3B48D;
 }
+
 .count-heading {
-  color:  #FF9B47;
+  color: #FF9B47;
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
 }
+
 .count-span {
   font-size: 2rem;
-  color:  #FF9B47;
+  color: #FF9B47;
   font-weight: 600;
 }
 
@@ -39,6 +42,7 @@
   margin-top: 3rem;
   border: 0;
 }
+
 .mail input {
   text-align: center;
   background-color: rgb(59, 59, 59);
@@ -48,7 +52,7 @@
 
 .mail-btn {
   color: white;
-  background-color:  #FF9B47;
+  background-color: #FF9B47;
   padding: 2px 10px;
 
 }
@@ -59,9 +63,11 @@
   line-height: 1.2rem;
   letter-spacing: 1px;
 }
+
 .copyright .design {
-  color:#C3B48D;
+  color: #C3B48D;
 }
+
 .tweet {
   color: #FF9B47;
   font-size: 2rem;
@@ -74,6 +80,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* .logo {
@@ -101,10 +111,11 @@
 /* } */
 .footer_section {
   background-color: black;
-    padding:5rem;
-    color:aqua;
-  }
-  .nav-links a {
+  padding: 5rem;
+  color: aqua;
+}
+
+.nav-links a {
   display: inline-block;
   position: relative;
   color: #C3B48D;
@@ -128,11 +139,18 @@
   transform-origin: bottom left;
 }
 
+
 .banner-image {
   position: relative;
 }
 
-.banner__text {
+/* .banner__text {} */
+
+/* .img-ban {
+  position: relative;
+} */
+
+/* .banner__content {
   position: absolute;
   top: 50%;
   left: 10%;
@@ -143,5 +161,17 @@
 
 .banner__content .banner__heading {
   font-size: 3rem;
+} */
+.mi {
+  width: 120px;
+  height: auto;
 }
 
+
+.logo {
+  height: auto;
+}
+
+.main {
+  margin-top: 150px;
+}
