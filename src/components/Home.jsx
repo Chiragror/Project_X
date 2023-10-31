@@ -5,7 +5,7 @@ const Home = () => {
     <div className="main">
       <h1>Welcome to Our Website</h1>
       <p>This is the home page content.</p>
-      {/* <div class="banner-image">
+      <div class="banner-image">
         <div>
           <img src="slider-1.jpg" alt="Slide 1" class="img-fluid" />
           <div class="banner__text">
@@ -36,8 +36,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
-      <a class="whats-app" href="#">
+      </div>
+      <a class="whats-app" href="https://wa.me/+918789935189/" target="new">
       <i class="fa-brands fa-whatsapp"></i>
       </a>
       <a class="sms" href="">

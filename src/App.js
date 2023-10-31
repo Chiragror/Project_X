@@ -4,11 +4,15 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
+import Loader from './Loader';
+
+
 const App = () => {
   return (
     <div>
       {/* <Header/>
       <Footer/> */}
+      <Loader></Loader>
        <BrowserRouter>
         <Routes>
           <Route>

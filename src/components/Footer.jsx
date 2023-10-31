@@ -22,23 +22,23 @@ const Footer = () => {
                             <div class="count1">
                                 <h2 class="count-heading"> <CountUp end={97} /></h2>
                                 <span class="count-span">%</span>
-                                <p class="sub-heading mt-2">Graduates</p>
+                                <p class="sub-heading mt-2">Successful operations</p>
 
                             </div>
                             <div class="count2">
-                                <h2 class="count-heading mt-5"> <CountUp end={30} /></h2>
+                                <h2 class="count-heading mt-5"> <CountUp end={3000} /></h2>
                                 <span class="count-span">+</span>
-                                <p class="sub-heading mt-2">Certified Teachers</p>
+                                <p class="sub-heading mt-2">Certified Doctors</p>
 
                             </div>
                             <div class="count3">
                                 <h2 class="count-heading mt-5">  <CountUp end={8} /></h2>
-                                <p class="sub-heading mt-2">Student campuses</p>
+                                <p class="sub-heading mt-2">Hospitals</p>
 
                             </div>
                             <div class="count4">
                                 <h2 class="count-heading mt-5">  <CountUp end={650} /></h2>
-                                <p class="sub-heading mt-2">Students</p>
+                                <p class="sub-heading mt-2">Trainees</p>
 
                             </div>
                         </div>
