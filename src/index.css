@@ -205,3 +205,11 @@
 
 
 }
+.search{
+  text-align: center;
+  align-items: center;
+  border-radius: 17px;
+  width: 500px;
+  border-style: solid;
+  
+}
